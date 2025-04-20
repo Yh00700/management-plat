@@ -1,12 +1,12 @@
 
 import './App.css';
+import { RouterProvider } from 'react-router-dom'
+import Routes from './router/index'
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hahsfsdfasdf</h1>
-      </header>
+    <div>
+      <RouterProvider router={Routes} />
     </div>
   );
 }
